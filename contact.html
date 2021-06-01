@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="/CSS/form.css">
+    <title>Legendary Motorsport</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="nav">
+            <a href="index.html"> <img width="200" src="./img/Banner/Legendary-carro.png" alt="Foto Logo Legendary Motorsport"></a>
+            <nav class="menu">
+                <ul>
+                    <li class="active"> <a href="index.html">Home</a> </li>
+                    <li class="active"><a href="index.html">Catalogo</a></li>
+                    <li class="active"><a href="budget.html">Orçamento </a></li>
+                    <li class="active"><a href="#">Fale Conosco</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="banner">
+        <img src="./img/Banner/Legendary-logo.png" alt="Legendary">
+    </div>
+    <div class="container">
+        <div class="row">
+            <h2>Fale Conosco</h2>
+        </div>
+        <div class="formulario">
+            <form method="Post">
+                <fieldset class="grupo">
+                    <div class="campo">
+                        <label for="nome">Nome</label>
+                        <input type="text" name="nome" id="nome" required>
+                        <br>
+                        <label for="sobrenome">Sobrenome</label>
+                        <input type="text" name="sobrenome" id="sobrenome" required>
+                    </div>
+                </fieldset>
+
+                <div class="campo">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div class="campo">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone">
+                </div>
+                <div class="campo">
+                    <label>Motivo do contato:</label>
+                    <br>
+                    <label>
+                        <input type="checkbox" id="1">Dúvida
+                    </label>
+                    <label>
+                        <input type="checkbox"  id="1" >Elogio
+                    </label>
+                    <label>
+                        <input type="checkbox" id="1" >Critica
+                    </label>
+                    <label>
+                        <input type="checkbox" id="1" >Sugestão
+                    </label>
+                </div>
+                <div class="campo">
+                    <br>
+                    <label>Escreva aqui sua menssagem</label>
+                    <textarea rows="6" style="width:26em"></textarea>
+                </div>
+                <button type="submit" class="botao">Enviar</button>
+            </form>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>UNIME - União Metropolitana de Educação e Cultura</p>
+        <p>Disciplina: Programação Web</p>
+        <p>Período letivo: 2021.1</p>
+        <p>Professor: Pablo Ricardo Roxo Silva</p>
+        <p>Aluno: Gutemberg Salomão Mauricio Filho</p>
+    </footer>
+</body>
+
+</html>

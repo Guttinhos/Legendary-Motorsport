@@ -1,0 +1,52 @@
+fieldset{
+    border: 0;
+}
+
+input,  textarea, button{
+    border-radius: 5px;
+}
+
+.campo{
+    margin-bottom: 1em;
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    color: white;
+    display: block;
+}
+
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"], campo input[type="email"], .campo textarea{
+    padding: 0.2em;
+    border: 1px solid #59429d;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0,0.2);
+    display: block;
+}
+
+.campo option{
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo textarea:focus{
+    background: #e0e0f8;
+}
+
+
+.botao{
+    font-size: 1.2em;
+    background:#59429d;
+    border: 0;
+    margin-bottom: 1em;
+    padding: 0.2em 0.6em;
+    color: white;
+}
+
+.formulario{
+    border: 1px solid grey;
+    padding: 20px;
+}

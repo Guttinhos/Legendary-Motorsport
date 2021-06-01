@@ -67,6 +67,7 @@ body {
   flex-direction: column;
   align-items: center;
   flex: 1;
+  
 }
 
 /*PRODUTO*/
@@ -89,15 +90,40 @@ body {
 .row {
   text-transform: uppercase;
   color: whitesmoke;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
 
-  padding: 50px;
+.detail p{
+  text-transform: uppercase;
+  color: whitesmoke;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.detail .budget{
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.detail  a{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ padding: 10px;
+ background-color: red;
+ border-radius: 10px;
+ color: white;
+ font-weight: bold;
+ text-transform: uppercase;
+ text-decoration: none;
 }
 
 .product_box h3 {
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 20px;
-
   color: orangered;
 }
 
@@ -128,6 +154,10 @@ body {
   margin: 20px auto;
 }
 
+.product_detail .qtditems{
+  border-radius: 10px;
+}
+
 .price {
   color: red;
 }
@@ -143,6 +173,8 @@ body {
   text-transform: uppercase;
   text-decoration: none;
 }
+
+
 
 /*TABELA*/
 #t1 {
@@ -183,6 +215,7 @@ body {
   text-align: center;
   font-size: 0.8rem;
   color: grey;
+  margin-top: 600px;
 }
 
 .footer p {

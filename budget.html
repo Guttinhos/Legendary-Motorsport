@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="./CSS/tabela.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.0/jquery.mask.js"></script>
+    <title>Legendary Motorsport</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="nav">
+            <a href="index.html"> <img width="200" src="./img/Banner/Legendary-carro.png"
+                    alt="Foto Logo Legendary Motorsport"></a>
+            <nav class="menu">
+                <ul>
+                    <li class="active"> <a href="index.html">Home</a> </li>
+                    <li class="active"><a href="index.html">Catalogo</a></li>
+                    <li class="active"><a href="budget.html">Orçamento </a></li>
+                    <li class="active"><a href="contact.html">Fale Conosco</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="banner">
+        <img src="./img/Banner/Legendary-logo.png" alt="Legendary">
+    </div>
+    <div class="container">
+        <div class="detail">
+        </div>
+        <div class="row">
+            <h2>Faça o seu orçamento</h2>
+        </div>
+        <div class="lista-produto" >
+          
+        </div>
+        <div class="cep">
+            <h3>Orçamento total (Frete + Produto)</h3>
+            <input type="text"  id="cep" name="cep" placeholder="Digite aqui seu CEP..." />
+            <p id="localfrete"></p>
+            <p id="valorfinal"></p>
+            <button class="botao" onclick="calcularElementos()">Calcular</button>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>UNIME - União Metropolitana de Educação e Cultura</p>
+        <p>Disciplina: Programação Web</p>
+        <p>Período letivo: 2021.1</p>
+        <p>Professor: Pablo Ricardo Roxo Silva</p>
+        <p>Aluno: Gutemberg Salomão Mauricio Filho</p>
+    </footer>
+    <script src="./JS/Script.js"></script>
+</body>
+</html>
